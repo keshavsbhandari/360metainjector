@@ -23,9 +23,9 @@ Functions for loading MPEG files and manipulating boxes.
 import StringIO
 import struct
 
-from spatialmedia.mpeg import box
-from spatialmedia.mpeg import constants
-from spatialmedia.mpeg import sa3d
+from mpeg import box
+from mpeg import constants
+from mpeg import sa3d
 
 def load(fh, position, end):
     if position is None:

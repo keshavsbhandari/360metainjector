@@ -24,7 +24,7 @@ import struct
 import xml.etree
 import xml.etree.ElementTree
 
-from spatialmedia import mpeg
+import mpeg
 
 MPEG_FILE_EXTENSIONS = [".mp4", ".mov"]
 

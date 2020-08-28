@@ -22,5 +22,5 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 __all__ = ["metadata_utils", "mpeg"]
 
-import spatialmedia.metadata_utils
-import spatialmedia.mpeg
+import metadata_utils
+import mpeg

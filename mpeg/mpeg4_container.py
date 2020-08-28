@@ -20,9 +20,9 @@
 Functions for loading MP4/MOV files and manipulating boxes.
 """
 
-from spatialmedia.mpeg import box
-from spatialmedia.mpeg import constants
-from spatialmedia.mpeg import container
+from mpeg import box
+from mpeg import constants
+from mpeg import container
 
 
 def load(fh):

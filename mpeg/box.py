@@ -23,7 +23,7 @@ Tool for loading mpeg4 files and manipulating atoms.
 import StringIO
 import struct
 
-from spatialmedia.mpeg import constants
+from mpeg import constants
 
 def load(fh, position, end):
     """Loads the box located at a position in a mp4 file.

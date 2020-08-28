@@ -15,11 +15,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import spatialmedia.mpeg.sa3d
-import spatialmedia.mpeg.box
-import spatialmedia.mpeg.constants
-import spatialmedia.mpeg.container
-import spatialmedia.mpeg.mpeg4_container
+import mpeg.sa3d
+import mpeg.box
+import mpeg.constants
+import mpeg.container
+import mpeg.mpeg4_container
 
 load = mpeg4_container.load
 

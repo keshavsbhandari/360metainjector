@@ -23,8 +23,8 @@ conforms to that outlined in docs/spatial-audio-rfc.md
 
 import struct
 
-from spatialmedia.mpeg import box
-from spatialmedia.mpeg import constants
+from mpeg import box
+from mpeg import constants
 
 
 def load(fh, position=None, end=None):

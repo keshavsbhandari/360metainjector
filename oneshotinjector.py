@@ -1,24 +1,20 @@
 
-import ntpath
+
 import os
 import sys
-import tkFileDialog
-import tkMessageBox
-import traceback
 
 try:
     from Tkinter import *
 except ImportError:
     print("Tkinter library is not available.")
-    exit(0)
 
 path = os.path.dirname(sys.modules[__name__].__file__)
 path = os.path.join(path, '..')
 sys.path.insert(0, path)
 
 
-from spatialmedia import metadata_utils
-from spatialmedia import mpeg
+import metadata_utils
+import mpeg
 class Console(object):
     def __init__(self):
         self.log = []
@@ -30,7 +26,7 @@ class Console(object):
 
 
 
-pth = "/Users/keshav/Desktop/egok-data-collector/spatial-media-2.0/spatialmedia/a.MP4"
+pth = "/home/keshav/Desktop/egokData/EgoK360_Data/Desk_work/Desk_work/egok360-Desk_work-Desk_work-3609.MP4"
 
 def inject(source, desitnation="w.MP$"):
     with open(source, "rb") as in_fh:
